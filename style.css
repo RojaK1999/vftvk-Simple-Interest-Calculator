@@ -1,4 +1,56 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: arial;
+    color:white;
+}
 
+h1 {
+    color:grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin:auto;
+}
+
+#label_principal,
+#label_rate,
+#label_years,
+#buttonCompute,
+#result {
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+
+#label_rate {
+    margin-right: 31px;
+}
+
+#label_years,
+#buttonCompute,
+#result {
+    margin-right: 37px;
+}
+
+#principal {
+    margin-bottom: 9px;
+}
+
+#rate {
+    margin-bottom: 16px;
+}
+
+#years {
+    margin-bottom: 11px;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+}
